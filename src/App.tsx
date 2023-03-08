@@ -53,7 +53,7 @@ function App() {
           <article className='article'>
             <h3>Response</h3>
             <div className="form-group">
-              <textarea name="response" id="" className='input-block' value={choices.length > 0 ? choices.map((choice) => choice.text).join('') : ''} rows={3}></textarea>
+              <textarea readOnly name="response" id="" className='input-block' value={choices.length > 0 ? choices.map((choice) => choice.text).join('') : ''} rows={3}></textarea>
             </div>
           </article>
         </div>
